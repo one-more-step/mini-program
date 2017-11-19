@@ -1,2 +1,10 @@
 # mini-program
-This project is to explore the usage of mini program.
+本项目旨在探索小程序的使用场景，并做出一个完整的有一定价值的小程序。
+
+
+## TODO
+- [ ] 学习小程序基础知识，建立协作机制。🕓 12月1日前
+- [ ] 探讨小程序的适用场景（做什么），并写出prd和原型图。
+- [ ] UI设计。
+- [ ] 项目架构设计。
+- [ ] 细化分工。
