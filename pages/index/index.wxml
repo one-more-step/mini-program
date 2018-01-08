@@ -1,5 +1,12 @@
 <!--index.wxml-->
 <view class="container">
+
+  <view class="bar flex-wrp" style="flex-direction:row">
+    <view class="bar-item flex-item ">近期会议</view>
+    <view class="bar-item flex-item ">我参与的</view>
+    <!-- <text class="focus-item bar-item">近期会议</text>
+    <text class="bar-item">我的会议</text> -->
+  </view>
   <view class="meet-list">
     <block  wx:for-items="{{list}}">
       <view class="meet-block">
