@@ -1,15 +1,23 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+  <view class="meet-list">
+    <block  wx:for-items="{{list}}">
+      <view class="meet-block">
+        <view class="meet-title">{{item.title}}</view>
+        <view class="meet-owner">分享人：{{item.owner}}</view>
+        <view class="meet-summary">{{item.summary}}</view>
+        <view class="meet-date">{{item.date}}</view>
+      </view>
+    </block>
+    <!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+    </block> -->
   </view>
   <view class="usermotto">
  
-  <button bindtap="clickMe">click me now</button>
-    <text class="user-motto">{{motto}}</text>
+  <!-- <button bindtap="clickMe">click me now</button>
+    <text class="user-motto">{{motto}}</text> -->
   </view>
 </view>

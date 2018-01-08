@@ -4,6 +4,7 @@ const app = getApp()
 
 Page({
   data: {
+    list: [{ title: 'jQ源码解析', owner: 'luffy', summary: '此次话题是围绕jQ源码来逐步展开的，其中包括基础架构解读和部分DOM源码', date: '2017-02-04' }, { title: 'jQ源码解析', owner: 'Simon', summary: 'sdfsdfsdfsdfsdf', date: '2017-02-04' }, { title: 'jQ源码解析', owner: 'luffy', summary: 'sdfsdfsdfsdfsdf', date: '2017-02-04' }],
     motto: 'Hello World!',
     userInfo: {},
     hasUserInfo: false,

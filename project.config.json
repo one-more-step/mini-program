@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.7.0",
 	"appid": "wx6d2fbb9c5f2316df",
-	"projectname": "meeting",
+	"projectname": "meetshare",
 	"condition": {
 		"search": {
 			"current": -1,
