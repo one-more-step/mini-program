@@ -1,0 +1,9 @@
+<!--logs.wxml-->
+<view class="container">
+  <span >会议主题</span>
+  <input class="vinput" placeholder='输入会议主题'></input>
+  <span >分享人</span>
+  <input class="vinput" placeholder='输入分享人'></input>
+  <span >概要</span>
+  <textarea class="vinput" placeholder='输入概要'></textarea>
+</view>

@@ -1,0 +1,16 @@
+.container{
+  background: #ccc;
+  padding: 0;
+  align-items: left;
+}
+span{
+  font-size:14px;
+}
+.vinput{
+  background:#fff;
+  width: 100%;
+  font-size:15px;
+  margin:10px 0px;
+
+
+}

@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/detail/detail",
+    "pages/launch/launch"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "welcome to WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "box-shadow": "0 0 6px 0",
+    "selectedColor": "#e64340",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "会议列表",
+        "iconPath": "images/b.png",
+        "selectedIconPath": "images/b.png"
+      },
+      {
+        "pagePath": "pages/launch/launch",
+        "text": "发起会议",
+        "iconPath": "images/a.png",
+        "selectedIconPath": "images/a.png"
+      }
+
+    ]
+  }
+}
