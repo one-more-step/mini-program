@@ -8,8 +8,9 @@
     <text class="bar-item">我的会议</text> -->
   </view>
   <view class="meet-list">
-    <block  wx:for-items="{{list}}">
-      <view class="meet-block">
+    <block  wx:for-items="{{list}}" wx:key="index">
+      <view bindtap="jumpDetail" class="meet-block">
+      <view>{{index}}</view>
         <view class="meet-title">{{item.title}}</view>
         <view class="meet-owner">分享人：{{item.owner}}</view>
         <view class="meet-summary">{{item.summary}}</view>
@@ -24,7 +25,6 @@
   </view>
   <view class="usermotto">
  
-  <!-- <button bindtap="clickMe">click me now</button>
-    <text class="user-motto">{{motto}}</text> -->
+   <button bindtap="jumpDetail">click me now</button>
   </view>
 </view>

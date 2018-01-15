@@ -1,10 +1,10 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
+// log = console.log;
 Page({
   data: {
-    list: [{ title: 'jQ源码解析', owner: 'luffy', summary: '此次话题是围绕jQ源码来逐步展开的，其中包括基础架构解读和部分DOM源码', date: '2017-02-04' }, { title: 'jQ源码解析', owner: 'Simon', summary: 'sdfsdfsdfsdfsdf', date: '2017-02-04' }, { title: 'jQ源码解析', owner: 'luffy', summary: 'sdfsdfsdfsdfsdf', date: '2017-02-04' }],
+    list: [{ id: 1, title: 'jQ源码解析', owner: 'luffy', summary: '此次话题是围绕jQ源码来逐步展开的，其中包括基础架构解读和部分DOM源码', date: '2017-02-04' }, { id: 2, title: 'jQ源码解析', owner: 'Simon', summary: 'sdfsdfsdfsdfsdf', date: '2017-02-04' }, { id: 3,title: 'jQ源码解析', owner: 'luffy', summary: 'sdfsdfsdfsdfsdf', date: '2017-02-04' }],
     motto: 'Hello World!',
     userInfo: {},
     hasUserInfo: false,
@@ -16,8 +16,14 @@ Page({
       url: '../logs/logs'
     })
   },
+  jumpDetail:function(){
+      console.log('===========');
+      wx.navigateTo({
+        url: '../detail/detail'
+      })
+  },
   clickMe:function(){
-    console.log('------')
+    
     this.setData({motto: 'hahaha'})
   },
   onLoad: function () {

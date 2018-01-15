@@ -6,4 +6,7 @@
   <input class="vinput" placeholder='输入分享人'></input>
   <span >概要</span>
   <textarea class="vinput" placeholder='输入概要'></textarea>
+  <view class="launchWrap">
+    <button class="launchBtn">发起项目</button>
+  </view>
 </view>
