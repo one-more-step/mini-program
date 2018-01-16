@@ -1,11 +1,8 @@
 <!--index.wxml-->
 <view class="container">
-
-  <view class="bar flex-wrp" style="flex-direction:row">
-    <view class="bar-item flex-item ">近期会议</view>
-    <view class="bar-item flex-item ">我参与的</view>
-    <!-- <text class="focus-item bar-item">近期会议</text>
-    <text class="bar-item">我的会议</text> -->
+  <view class="bar">
+    <view bindtap="cutBar" class="bar-item flex-item ">近期会议</view>
+    <view bindtap="cutBar" class="bar-item flex-item ">我参与的</view>
   </view>
   <view class="meet-list">
     <block  wx:for-items="{{list}}" wx:key="index">
@@ -22,9 +19,5 @@
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block> -->
-  </view>
-  <view class="usermotto">
- 
-   <button bindtap="jumpDetail">click me now</button>
   </view>
 </view>

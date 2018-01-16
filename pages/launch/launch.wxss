@@ -4,16 +4,20 @@
   align-items: left;
 }
 span{
-  font-size:14px;
+  font-size:28rpx;
+}
+.vtitle{
+  padding: 18rpx 20rpx;
+  display:inline-block;
 }
 .vinput{
   background:#fff;
   width: 100%;
-  font-size:15px;
-  margin:10px 0px;
+  font-size:30rpx;
+  padding: 20rpx;
 }
 .launchWrap{
-  padding:20px 10px;
+  padding:40rpx 20rpx;
 }
 .launchBtn{
    background:green; 

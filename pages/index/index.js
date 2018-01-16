@@ -16,8 +16,10 @@ Page({
       url: '../logs/logs'
     })
   },
+  cutBar:function(){
+    console.log('===========');
+  },
   jumpDetail:function(){
-      console.log('===========');
       wx.navigateTo({
         url: '../detail/detail'
       })

@@ -1,4 +1,4 @@
-/**index.wxss**/
+/**index.wxss**/ 
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -18,16 +18,16 @@
 
 }
 .bar-item{
-  
+  text-align: center;
+  width:50%;
+  padding:5% 0;
 }
 .usermotto {
-  margin-top: 200px;
 }
 .bar{
-  flex-direction: row;
-  text-align: center;
-  padding: 5% 0%;
-  /* height: 50px;  */
+  display: flex;
+  flex-direction: row; 
+  justify-content:flex-center;
   width:100%;
   background-color:whitesmoke;
 }
@@ -44,7 +44,6 @@
 .meet-owner{
   font-size: 25rpx;
   padding-bottom:10rpx;
-  
 }
 .meet-summary{
   color: 	#A9A9A9;
@@ -56,7 +55,6 @@
   color: 	#A9A9A9;
   margin-right:20rpx;
   text-align:right;
-
 }
 .meet-block{
   margin-top:10rpx;
