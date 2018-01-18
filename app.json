@@ -18,13 +18,13 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "会议列表",
+        "text": "列表",
         "iconPath": "images/b.png",
         "selectedIconPath": "images/b.png"
       },
       {
         "pagePath": "pages/launch/launch",
-        "text": "发起会议",
+        "text": "发起分享",
         "iconPath": "images/a.png",
         "selectedIconPath": "images/a.png"
       }

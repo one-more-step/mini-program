@@ -4,4 +4,5 @@
     <text class="log-item">{{index + 1}}. {{log}}</text>
   </block> -->
   <span>here is the page of detail</span>
+  <view>在详情页添加评论区（详情页是否以大段落显示？）</view>
 </view>

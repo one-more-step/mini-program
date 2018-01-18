@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <view class="bar">
-    <view bindtap="cutBar" data-name="meets" class="bar-item flex-item {{currentTab=='meets'?' active':''}}">近期会议</view>
+    <view bindtap="cutBar" data-name="meets" class="bar-item flex-item {{currentTab=='meets'?' active':''}}">近期分享</view>
     <view bindtap="cutBar" data-name="mine" class="bar-item flex-item {{currentTab=='mine'?' active':''}} ">我参与的</view> 
   </view>
   <view class="meet-list">

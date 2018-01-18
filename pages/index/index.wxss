@@ -29,7 +29,7 @@
   content: '';
   border: 2px solid green;
   display:inline-block;
-  width: 90%;
+  width: 60%;
 }
 .usermotto {
 }
