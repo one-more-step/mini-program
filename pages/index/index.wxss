@@ -22,6 +22,15 @@
   width:50%;
   padding:5% 0;
 }
+.active{
+  color:green;
+}
+.active::after{
+  content: '';
+  border: 2px solid green;
+  display:inline-block;
+  width: 90%;
+}
 .usermotto {
 }
 .bar{
@@ -30,6 +39,15 @@
   justify-content:flex-center;
   width:100%;
   background-color:whitesmoke;
+}
+.current-bar{
+  color:green;
+}
+.current-bar::after{
+  content: '';
+  border: 2px solid green;
+  display:inline-block;
+  width: 100%;
 }
 .block{
   width: 100%;

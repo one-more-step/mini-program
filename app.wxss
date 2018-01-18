@@ -1,4 +1,5 @@
 /**app.wxss**/
+/* 考虑是否引入weui */
 page{
   height: 100%;
 }
