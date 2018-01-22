@@ -10,6 +10,16 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+  // openPic:function(){
+  //   wx.chooseImage({
+  //     count:1,
+  //     sizeType:['original','compressed'],
+  //     sourceType:['album','camera'],
+  //     success:function(res){
+  //       console.log(res);
+  //     }
+  //   })
+  // },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
