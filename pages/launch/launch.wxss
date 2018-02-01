@@ -2,6 +2,7 @@
   background: #ccc;
   padding: 0;
   align-items: left;
+  height: 100%;
 }
 span{
   font-size:28rpx;
