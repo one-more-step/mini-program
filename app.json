@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/detail/detail",
-    "pages/launch/launch"
+    "pages/launch/launch",
+    "pages/mine/mine"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -27,6 +28,12 @@
         "text": "发起分享",
         "iconPath": "images/a.png",
         "selectedIconPath": "images/a.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine.png"
       }
 
     ]
