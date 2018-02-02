@@ -26,6 +26,9 @@ Page({
       url: '../logs/logs'
     })
   },
+  toDo:function(){
+    console.log('todo ----');
+  },
   cutBar:function(event){
     //to do add or remove class
     let name = event.currentTarget.dataset.name;

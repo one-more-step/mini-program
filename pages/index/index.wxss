@@ -81,3 +81,9 @@
   padding: 10rpx 10rpx;
   border-radius:10rpx;
 }
+.arrow-down{
+  padding: 10px;
+  float: right;
+  height: 30rpx;
+  width: 30rpx;
+}
