@@ -26,7 +26,18 @@ Page({
       url: '../logs/logs'
     })
   },
-  toDo:function(){
+  toDo:function(e){
+    console.log(e);
+    wx.showActionSheet({
+      itemList: ['收藏'],
+      success: function (res) {
+        console.log('点击了收藏,,,');
+        console.log(res);
+      },
+      fail: function (res) {
+        console.log(res.errMsg)
+      }
+    })
     console.log('todo ----');
   },
   cutBar:function(event){
