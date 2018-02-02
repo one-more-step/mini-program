@@ -10,7 +10,7 @@
       <view bindtap="jumpDetail" class="meet-block">
       <view>{{index}}</view>
       <view>头像处理：</view>
-      <image catchtap="toDo" src="../../images/arrow-down.png" class="arrow-down"></image>
+      <image catchtap="toDo" data-name="{{index}}" src="../../images/arrow-down.png" class="arrow-down"></image>
         <view class="meet-title">{{item.title}}</view>
         <view class="meet-owner">分享人：{{item.owner}}</view>
         <view class="meet-summary">{{item.summary}}</view>
